@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-21",
+  "java": "21.0.5",
+  "tomcat": "9.0.123",
+  "browser": "Chrome (headless)",
+  "results": [
+    {
+      "name": "Tomcat startup and JSP compilation",
+      "passed": true
+    },
+    {
+      "name": "Nine implicit objects, UTF-8 POST, config parameter and page instance",
+      "passed": true
+    },
+    {
+      "name": "response header and real HTTP 302 redirect",
+      "passed": true
+    },
+    {
+      "name": "Real exception forwarded to isErrorPage JSP",
+      "passed": true
+    },
+    {
+      "name": "page/request/session/application visible on same page",
+      "passed": true
+    },
+    {
+      "name": "Forward loses page and preserves request/session/application",
+      "passed": true
+    },
+    {
+      "name": "Redirect loses page/request and preserves session/application",
+      "passed": true
+    },
+    {
+      "name": "Independent user has separate session but shared application",
+      "passed": true
+    },
+    {
+      "name": "Session invalidation clears session and preserves application",
+      "passed": true
+    },
+    {
+      "name": "User input is escaped as text",
+      "passed": true
+    }
+  ],
+  "screenshotCount": 7
+}

@@ -1,0 +1,9 @@
+<%!
+    // 把动态文字中的 HTML 特殊字符转义，避免姓名等输入被当成标签执行。
+    public String h(Object value) {
+        if (value == null) return "（未读取到）";
+        return String.valueOf(value).replace("&", "&amp;")
+            .replace("<", "&lt;").replace(">", "&gt;")
+            .replace("\"", "&quot;").replace("'", "&#39;");
+    }
+%>
